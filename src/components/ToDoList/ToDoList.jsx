@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ToDo from './ToDo';
+import './styles.css'
 
 
 
@@ -38,15 +39,24 @@ function ToDoList() {
             <div className='main_div'>
                 <div className='center_div'>
                     <br />
-                    <h1>To-Do List</h1>
+                    <div className="heading">
+                        <h1 >To-Do List</h1>
+                    </div>
+
                     <br />
-                    <input
-                        type="text"
-                        placeholder="Write a note"
-                        onChange={itemEvent}
-                        value={inputList}
-                    />
-                    <button onClick={listOfItems}>+</button>
+                    <div className="form">
+
+                        <input
+                            type="text"
+                            placeholder="Write a note"
+                            onChange={itemEvent}
+                            value={inputList}
+                        />
+                        <button onClick={listOfItems}>
+                            <span>+</span></button>
+
+                    </div>
+
                     <ol>
                         {items.map((itemval, index) => {
                             return <ToDo

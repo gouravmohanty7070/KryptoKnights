@@ -10,6 +10,7 @@ import Contact from './components/Contact/Contact'
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Chart from './components/Chart/Chart';
+import Extension from './components/Extension/Extension';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
     <Navbar />
     <Switch>
       <Route exact path="/" component={Home} />
+      <Route exact path="/extension" component={Extension} />
       <Route exact path="/todolist" component={ToDoList} />
       <Route exact path="/timer" component={Timer} />
       <Route exact path="/bmi" component={Bmi} />
