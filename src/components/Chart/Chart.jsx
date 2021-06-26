@@ -62,15 +62,19 @@ function Chart() {
 
 
     return (
-        <>
+        <> 
+            <Typography variant="h2" align = "center" color = "primary" gutterBottom>
+                Chart List 
+            </Typography>
             <LineChart />
-            <Typography variant="h6" gutterBottom>
-                heading
+            {/* <BarChart /> */}
+            <Typography variant="h5" align = "center" color = "secondary" gutterBottom>
+                Activities Chart
             </Typography>
             {/* <BarChart /> */}
             <RadarChart />
-            <Typography variant="h6" gutterBottom>
-                heading
+            <Typography variant="h5" align = "center" color = "secondary"  gutterBottom>
+                Subject tracker
             </Typography>
         </>
     )

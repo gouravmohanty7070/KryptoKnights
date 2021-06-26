@@ -12,7 +12,7 @@ function RadarChart() {
         ],
         datasets: [
             {
-                label: 'Sales 2020 (M)',
+                label: 'Saturday, 26th',
                 data: [3, 2, 2, 1, 5],
                 fill: true,
                 borderColor: ['rgb(255, 99, 132)'],
@@ -24,7 +24,7 @@ function RadarChart() {
 
             },
             {
-                label: 'Sales 2019 (M)',
+                label: 'Sunday, 27th`',
                 data: [1, 3, 2, 2, 3],
                 fill: true,
                 backgroundColor: 'rgba(54, 162, 235, 0.2)',
