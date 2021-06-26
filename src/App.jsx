@@ -9,6 +9,8 @@ import Bmi from './components/Bmi/Bmi';
 import Contact from './components/Contact/Contact'
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import Chart from './components/Chart/Chart';
+
 
 const App = () => {
   return (<>
@@ -18,6 +20,7 @@ const App = () => {
       <Route exact path="/todolist" component={ToDoList} />
       <Route exact path="/timer" component={Timer} />
       <Route exact path="/bmi" component={Bmi} />
+      <Route exact path="/chart" component={Chart} />
       <Route exact path="/contact" component={Contact} />
       <Redirect to='/' />
     </Switch>
