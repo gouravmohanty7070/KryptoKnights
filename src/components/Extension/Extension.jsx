@@ -7,7 +7,7 @@ const Extension = () => {
 
     return (
         <>
-            <Typography variant="h2" align="center" style={{ color: "#2F5D62" }} gutterBottom>
+            <Typography variant="h2" align="center" className="font-weight-bolder" style={{ color: "#09DA66" }} gutterBottom>
                 Chrome Extensions
             </Typography>
             {/* <Typography variant="h6" align="center" color="textSecondary" paragraph>

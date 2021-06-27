@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <>
-      <div className="container-fluid nav_bg">
+      <div className="container-fluid nav_bg" >
         <div className="row">
           <div className="col-10 mx-auto">
 
@@ -33,9 +33,6 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item">
                       <NavLink activeClassName="menu_active" className="nav-link" to="/chart">Chart</NavLink>
-                    </li>
-                    <li className="nav-item">
-                      <NavLink activeClassName="menu_active" className="nav-link" to="/contact">Contact</NavLink>
                     </li>
                   </ul>
                 </div>
