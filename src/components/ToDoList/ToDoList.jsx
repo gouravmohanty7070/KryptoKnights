@@ -37,7 +37,7 @@ function ToDoList() {
 
     return (
         <>
-            <Typography variant="h2" align="center" style={{ color: "#2F5D62" }} gutterBottom>
+            <Typography variant="h2" align="center" style={{ color: "#09DA66" }} gutterBottom>
                 To-Do List
             </Typography>
             <Typography variant="h5" align="center" color="textSecondary" paragraph style={{ color: "#558776" }}>
