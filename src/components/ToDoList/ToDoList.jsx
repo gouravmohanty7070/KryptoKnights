@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ToDo from './ToDo';
 import './styles.css'
+import { Typography } from '@material-ui/core';
 
 
 
@@ -36,6 +37,13 @@ function ToDoList() {
 
     return (
         <>
+            <Typography variant="h2" align="center" style={{ color: "#09DA66" }} gutterBottom>
+                To-Do List
+            </Typography>
+            <Typography variant="h5" align="center" color="textSecondary" paragraph style={{ color: "#558776" }}>
+                Keep a track on everything you do using our to-do list.
+            </Typography>
+
             <div className='main_div'>
                 <div className='center_div'>
                     <br />
