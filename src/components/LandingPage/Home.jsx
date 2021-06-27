@@ -15,6 +15,7 @@ const Home = () => {
                                 </h1>
                                 <h2 className="my-3">
                                     This will help you bring your focus, back into yourself.
+                                    Made by students, for the students.
                                 </h2>
                                 <div className="mt-3">
                                     <NavLink to="/todolist" className="btn-explore-now">Explore Now</NavLink>
