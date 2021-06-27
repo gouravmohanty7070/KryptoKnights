@@ -6,3 +6,9 @@
 .chart{
     width: 700px;
 }
+
+.chartHeader{
+    color: #09DA66;
+    font-weight: 500;
+    align-items: center;
+}

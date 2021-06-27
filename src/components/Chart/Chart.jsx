@@ -63,7 +63,7 @@ function Chart() {
 
     return (
         <> 
-            <Typography variant="h2" align = "center" color = "primary" gutterBottom>
+            <Typography variant="h2" align = "center" className="chartHeader" gutterBottom>
                 Chart List 
             </Typography>
             <LineChart />
