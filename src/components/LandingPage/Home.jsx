@@ -17,7 +17,7 @@ const Home = () => {
                                     This will help you bring your focus, back into yourself.
                                 </h2>
                                 <div className="mt-3">
-                                    <NavLink to="/todolist" className="btn-explore-now">Explore Now</NavLink>
+                                    <NavLink to="/extension" className="btn-explore-now">Explore Now</NavLink>
                                 </div>
                             </div>
                             <div className="col-lg-6 order-1 order-lg-2 header-img">
